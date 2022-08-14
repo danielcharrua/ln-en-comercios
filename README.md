@@ -6,6 +6,8 @@ Esta guía busca hacer la implementación basandose en el control y libertad tot
 
 Más adelante la idea será agregar una nueva guía o apartado para la implementacion "fácil y rápido" pero tendrás menos seguridad y control sobre tus fondos.
 
+Esta guía no pretende entrar muy profundamente en conceptos técnicos ni definiciones pero si servir de punto de partida para la implementación. Si necesitas profundizar en algún concepto puedes buscar en la web.
+
 ## Idea
 La idea general de implementación será:
 - Instalar BTCPay Server en Linux, usando hardware propio o un VPS en la nube
@@ -15,12 +17,15 @@ La idea general de implementación será:
 - Realizar pruebas en Testnet
 
 ## Hardware necesario
-
+- Ordenador con 8GB RAM / 120GB disco
 
 ## Software necesario
-
+- Linux Ubuntu Server 22.04
+- BTCPay Server
+- Una página web con WordPress
 
 ## Legislación
-
+Sección pendiente de desarrollo.
 
 ## Lectura de interés
+Sección pendiente de desarrollo.
