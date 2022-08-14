@@ -16,10 +16,12 @@ La idea general de implementación será:
 - Configurar nuestra hardware wallet
 - Realizar pruebas en Testnet
 
-## Hardware necesario
+## Hardware
+Puedes usar otro hardware similar que encuentres en el mercado. Incluso comprar de segunda mano.
 - Ordenador con 8GB RAM / 120GB disco
+- Ledger Nano hardware wallet
 
-## Software necesario
+## Software
 - Linux Ubuntu Server 22.04
 - BTCPay Server
 - Una página web con WordPress
