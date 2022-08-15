@@ -20,11 +20,12 @@ La idea general de implementación será:
 Puedes usar otro hardware similar que encuentres en el mercado. Incluso comprar de segunda mano.
 - Ordenador con 8GB RAM / 120GB disco
 - Ledger Nano hardware wallet
+- Teléfono móvil o tablet para usar como POS en tiendas físicas
 
 ## Software
 - Linux Ubuntu Server 22.04
 - BTCPay Server
-- Una página web con WordPress
+- Una página web con WordPress (podría ser también con Prestashop, Magento, Shopify, etc.)
 
 ## Legislación
 Sección pendiente de desarrollo.
