@@ -31,4 +31,7 @@ Puedes usar otro hardware similar que encuentres en el mercado. Incluso comprar 
 Sección pendiente de desarrollo.
 
 ## Lectura de interés
-Sección pendiente de desarrollo.
+- [LNBits para pequeños comerciantes](https://darthcoin.substack.com/p/lnbits-para-comerciantes)
+
+## Lecturas técnicas
+- [Mastering the Lightning Network](https://github.com/lnbook/lnbook)
