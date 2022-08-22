@@ -30,6 +30,12 @@ Puedes usar otro hardware similar que encuentres en el mercado. Incluso comprar 
 ## Legislación
 Sección pendiente de desarrollo.
 
+## Bitcoin Testnet tBTC faucet
+- https://coinfaucet.eu/en/btc-testnet
+- https://testnet-faucet.mempool.co
+- https://bitcoinfaucet.uo1.net
+- https://testnet.help/en/btcfaucet/testnet
+
 ## Lectura de interés
 - [LNBits para pequeños comerciantes](https://darthcoin.substack.com/p/lnbits-para-comerciantes)
 
