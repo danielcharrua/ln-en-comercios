@@ -10,35 +10,35 @@ Esta guía no pretende entrar muy profundamente en conceptos técnicos ni defini
 
 ## Idea
 La idea general de implementación será:
-- Instalar BTCPay Server en Linux, usando hardware propio o un VPS en la nube
-- Montar los nodos de Bitcoin y Lightning Network en el hardware
-- Configurar BTCPay Server para nuestra tienda online/offline
-- Configurar nuestra hardware wallet
-- Realizar pruebas en Testnet
- - Transacciones de apertura y cierre de canales
+* Instalar BTCPay Server en Linux, usando hardware propio o un VPS en la nube
+* Montar los nodos de Bitcoin y Lightning Network en el hardware
+* Configurar BTCPay Server para nuestra tienda online/offline
+* Configurar nuestra hardware wallet
+* Realizar pruebas en Testnet
+ * Transacciones de apertura y cierre de canales
 
 ## Hardware
 Puedes usar otro hardware similar que encuentres en el mercado. Incluso comprar de segunda mano.
-- Ordenador con 8GB RAM / 120GB disco
-- Ledger Nano hardware wallet
-- Teléfono móvil o tablet para usar como POS en tiendas físicas
+* Ordenador con 8GB RAM / 120GB disco
+* Ledger Nano hardware wallet
+* Teléfono móvil o tablet para usar como POS en tiendas físicas
 
 ## Software
-- Linux Ubuntu Server 22.04
-- BTCPay Server
-- Una página web con WordPress (podría ser también con Prestashop, Magento, Shopify, etc.)
+* Linux Ubuntu Server 22.04
+* BTCPay Server
+* Una página web con WordPress (podría ser también con Prestashop, Magento, Shopify, etc.)
 
 ## Legislación
 Sección pendiente de desarrollo.
 
 ## Bitcoin Testnet tBTC faucet
-- https://coinfaucet.eu/en/btc-testnet
-- https://testnet-faucet.mempool.co
-- https://bitcoinfaucet.uo1.net
-- https://testnet.help/en/btcfaucet/testnet
+* https://coinfaucet.eu/en/btc-testnet
+* https://testnet-faucet.mempool.co
+* https://bitcoinfaucet.uo1.net
+* https://testnet.help/en/btcfaucet/testnet
 
 ## Lectura de interés
-- [LNBits para pequeños comerciantes](https://darthcoin.substack.com/p/lnbits-para-comerciantes)
+* [LNBits para pequeños comerciantes](https://darthcoin.substack.com/p/lnbits-para-comerciantes)
 
 ## Lecturas técnicas
-- [Mastering the Lightning Network](https://github.com/lnbook/lnbook)
+* [Mastering the Lightning Network](https://github.com/lnbook/lnbook)
