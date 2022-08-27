@@ -15,7 +15,9 @@ La idea general de implementación será:
 * Configurar BTCPay Server para nuestra tienda online/offline
 * Configurar nuestra hardware wallet
 * Realizar pruebas en Testnet
+* A tener en cuenta:
   * Transacciones de apertura y cierre de canales
+  * Watchtowers (para vigilar Protocol breach force close channels)
 
 ## Hardware
 Puedes usar otro hardware similar que encuentres en el mercado. Incluso comprar de segunda mano.
