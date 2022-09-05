@@ -19,7 +19,11 @@ La idea general de implementación será:
   * Transacciones on-chain de apertura y cierre de canales
   * Nodo corriendo 24/7 o uso de Watchtowers (para vigilar "Protocol breach force close" channels)
   * 100% uptime para recibir pagos
-  * Backup de canales y semillas
+    * Encendido automático ante fallas eléctricas
+    * Encendido de servicios automaticos ante fallas (crashes)
+    * Reconexión automática de red ante fallas del ISP/router
+    * Tener logfiles para evaluar problemas
+  * Backup de canales (SCBs) encriptados y semillas
   * Decide si vas a vender en Sats o Fiat. De esto dependerá la expiracion de las invoices de LN.
     * Sats: 24 h sería correcto y cómodo.
     * Fiat físico: 1 min cantidad fija (quizá lo más seguro) o 10 min cantidad no fija (lo calculará la wallet del pagador al enviar su pago)
