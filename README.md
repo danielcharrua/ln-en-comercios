@@ -25,7 +25,7 @@ La idea general de implementación será:
     * Fiat físico: 1 min cantidad fija (quizá lo más seguro) o 10 min cantidad no fija (lo calculará la wallet del pagador al enviar su pago)
     * Fiat online: 15 min cantidad fija
 
-## Conceptos básicos
+## Conceptos básicos a considerar
 El comercio que quiera implementar pagos en Lightning debe plantearse varias cosas. Por el momento voy a ir planteando algunas preguntas que se me ocurren.
 Por ejemplo:
 * ¿Tiene un mínimo de conocimiento en Bitcoin?
