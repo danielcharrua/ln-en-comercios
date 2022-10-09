@@ -8,12 +8,16 @@ Más adelante se agregará una nueva guía o apartado para la implementacion "f�
 
 Esta guía no pretende sumergirse profundamente en conceptos técnicos ni definiciones pero si servir de punto de partida para la implementación. Si necesitas profundizar en algún concepto puedes buscar en la web.
 
-## Recibir pagos en Lightning Network en comercios
-En un comercio que quiera recibir pagos es fundamental la "inbound liquidity" o liquidez entrante. Esto significa que debes tener capacidad para poder recibir pagos que quieran hacer tus clientes. Esto se logra teniendo canales con capacidad de pago apuntando hacía tí.
+## Recibir pagos en Lightning Network
+Para que un comercio pueda recibir pagos es fundamental que la wallet que quiere enviar el pago (el cliente) encuentre un camino hacia el nodo (el comercio) que emite la factura. Ese camino (canal o ruta) también tiene que tener balance y capacidad suficiente para poder enviar el pago.
 
-Cuando un cliente quiera enviarte un pago, sea en tu comercio online u offline, tu nodo generará una factura Lightning y él cliente la escaneará probablemente con su wallet en su teléfono móvil. A continuación su wallet intentará buscar un camino hacia tu nodo y poder enviar ese pago.
+La wallet del cliente escaneará la factura y buscará un camino para poder entregar el pago. Si encuentra un camino que cumpla con las necesidades te mostrará que se puede efectuar el pago y posiblemente unas pequeñas comisiones de "enrutado". Esas comisiones son otros nodos por el que pasa tu pago y que permiten la conexión entre tu wallet y el nodo destino. No te asustes, esto es correcto y es el "precio" por utilizar la red.
 
-Aquí existen dos posibilidades, la primera sería que al escanear la factura la wallet de tu cliente encuentre un camino hacia tu nodo y pueda enviarte el pago, y la segunda sería que el cliente abra un canal de pago con tu nodo. Es fundamental que exista un camino o se cree uno, de lo contrario no se podrá enviar el pago.
+//imagen de canales con nodos intermedios.
+
+Si la wallet no encuentra un camino tienes la posibilidad de abrir un canal de pago directo con el comercio. Tienes que pensar si es un comercio con el que seguirás efectuando compras ya que abrir y cerrar un canal incurre en comisiones on-chain (Bitcoin).
+
+//imagen de canal de pago directo.
 
 ## Idea
 La idea general de implementación será:
