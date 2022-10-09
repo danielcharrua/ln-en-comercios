@@ -8,6 +8,13 @@ Más adelante se agregará una nueva guía o apartado para la implementacion "f�
 
 Esta guía no pretende sumergirse profundamente en conceptos técnicos ni definiciones pero si servir de punto de partida para la implementación. Si necesitas profundizar en algún concepto puedes buscar en la web.
 
+## Recibir pagos en Lightning Network en comercios
+En un comercio que quiera recibir pagos es fundamental la "inbound liquidity" o liquidez entrante. Esto significa que debes tener capacidad para poder recibir pagos que quieran hacer tus clientes. Esto se logra teniendo canales con capacidad de pago apuntando hacía tí.
+
+Cuando un cliente quiera enviarte un pago, sea en tu comercio online u offline, tu nodo generará una factura Lightning y él cliente la escaneará probablemente con su wallet en su teléfono móvil. A continuación su wallet intentará buscar un camino hacia tu nodo y poder enviar ese pago.
+
+Aquí existen dos posibilidades, la primera sería que al escanear la factura la wallet de tu cliente encuentre un camino hacia tu nodo y pueda enviarte el pago, y la segunda sería que el cliente abra un canal de pago con tu nodo. Es fundamental que exista un camino o se cree uno, de lo contrario no se podrá enviar el pago.
+
 ## Idea
 La idea general de implementación será:
 * Instalar BTCPay Server en Linux, usando hardware propio o un VPS en la nube
@@ -41,13 +48,16 @@ Por ejemplo:
 ## Hardware
 Puedes usar otro hardware similar que encuentres en el mercado. Incluso comprar de segunda mano.
 * Ordenador con 8GB RAM / 1TB disco SSD
-* Ledger Nano hardware wallet (o cualquier hardware wallet)
-* Teléfono móvil o tablet para usar como POS en tiendas físicas
+* Cold Card Wallet (o cualquier hardware wallet, puede ser Ledger Nano por ejemplo)
+* Teléfono móvil o tablet para usar como POS (punto de venta) en tiendas físicas
 
 ## Software
 * Linux Ubuntu Server 22.04
 * BTCPay Server
-* Una página web con WordPress (podría ser también con Prestashop, Magento, Shopify, etc.)
+* Si vas a vender online
+  * Una página web con WordPress (podría ser también con Prestashop, Magento, Shopify, etc.)
+  * WooCommerce
+  * Plugin de BTCPay Server para WordPress
 
 ## Legislación
 Sección pendiente de desarrollo.
@@ -58,7 +68,7 @@ Sección pendiente de desarrollo.
 * https://bitcoinfaucet.uo1.net
 * https://testnet.help/en/btcfaucet/testnet
 
-## Lectura de interés
+## Lecturas de interés
 * [LNBits para pequeños comerciantes](https://darthcoin.substack.com/p/lnbits-para-comerciantes)
 
 ## Lecturas técnicas
