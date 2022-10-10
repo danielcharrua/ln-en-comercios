@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="320px" viewBox="0 0 600 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard Copy</title>
+    <g id="Artboard-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(78.000000, 41.000000)">
+            <line x1="83.9826498" y1="61.1521739" x2="164.98265" y2="98.1521739" id="Line-Copy-3" stroke="#979797" stroke-width="2.25" stroke-linecap="square"></line>
+            <line x1="278.98265" y1="61.1521739" x2="359.98265" y2="98.1521739" id="Line-Copy-5" stroke="#979797" stroke-width="2.25" stroke-linecap="square" transform="translate(319.419558, 79.334448) scale(1, -1) translate(-319.419558, -79.334448) "></line>
+            <line x1="83.9826498" y1="153.152174" x2="164.98265" y2="190.152174" id="Line-Copy-4" stroke="#979797" stroke-width="2.25" stroke-linecap="square" transform="translate(124.419558, 171.334448) scale(1, -1) translate(-124.419558, -171.334448) "></line>
+            <line x1="278.98265" y1="153.152174" x2="359.98265" y2="190.152174" id="Line-Copy-6" stroke="#979797" stroke-width="2.25" stroke-linecap="square"></line>
+            <ellipse id="Oval" stroke="#979797" stroke-width="2.25" fill="#D8D8D8" cx="43.9211356" cy="193.826087" rx="42.7961356" ry="42.701087"></ellipse>
+            <ellipse id="Oval-Copy-2" stroke="#979797" stroke-width="2.25" fill="#D8D8D8" cx="43.9211356" cy="43.826087" rx="42.7961356" ry="42.701087"></ellipse>
+            <ellipse id="Oval-Copy" stroke="#979797" stroke-width="2.25" fill="#D8D8D8" cx="399.794953" cy="193.826087" rx="42.7961356" ry="42.701087"></ellipse>
+            <ellipse id="Oval-Copy-3" stroke="#979797" stroke-width="2.25" fill="#D8D8D8" cx="399.794953" cy="43.826087" rx="42.7961356" ry="42.701087"></ellipse>
+            <text id="Nodo" font-family="Helvetica" font-size="21" font-weight="normal" fill="#000000">
+                <tspan x="18.8195731" y="200.701784">Nodo</tspan>
+            </text>
+            <text id="Nodo-Copy-2" font-family="Helvetica" font-size="21" font-weight="normal" fill="#000000">
+                <tspan x="18.8195731" y="50.7017837">Nodo</tspan>
+            </text>
+            <text id="Nodo-Copy" font-family="Helvetica" font-size="21" font-weight="normal" fill="#000000">
+                <tspan x="374.69339" y="200.701784">Nodo</tspan>
+            </text>
+            <text id="Nodo-Copy-3" font-family="Helvetica" font-size="21" font-weight="normal" fill="#000000">
+                <tspan x="374.69339" y="50.7017837">Nodo</tspan>
+            </text>
+            <path id="Line-2-Copy-2" d="M97.6669498,54.5320509 L98.0098494,54.6838562 L144.651,75.332 L146.068379,72.1322223 L151.814917,78.9140311 L142.93107,79.2188147 L144.348,76.018 L97.7062389,55.3696555 L97.3633393,55.2178502 L97.6669498,54.5320509 Z" fill="#979797" fill-rule="nonzero"></path>
+            <path id="Line-2-Copy-5" d="M288.66695,59.5320509 L289.009849,59.6838562 L335.651,80.332 L337.068379,77.1322223 L342.814917,83.9140311 L333.93107,84.2188147 L335.348,81.018 L288.706239,60.3696555 L288.363339,60.2178502 L288.66695,59.5320509 Z" transform="translate(315.482650, 72.152174) scale(-1, 1) translate(-315.482650, -72.152174) " fill="#979797" fill-rule="nonzero"></path>
+            <path id="Line-2-Copy-4" d="M97.6669498,148.532051 L98.0098494,148.683856 L144.651,169.332 L146.068379,166.132222 L151.814917,172.914031 L142.93107,173.218815 L144.348,170.018 L97.7062389,149.369655 L97.3633393,149.21785 L97.6669498,148.532051 Z" transform="translate(124.482650, 161.152174) scale(1, -1) translate(-124.482650, -161.152174) " fill="#979797" fill-rule="nonzero"></path>
+            <path id="Line-2-Copy-6" d="M292.66695,149.532051 L293.009849,149.683856 L339.651,170.332 L341.068379,167.132222 L346.814917,173.914031 L337.93107,174.218815 L339.348,171.018 L292.706239,150.369655 L292.363339,150.21785 L292.66695,149.532051 Z" transform="translate(319.482650, 162.152174) scale(-1, -1) translate(-319.482650, -162.152174) " fill="#979797" fill-rule="nonzero"></path>
+            <g id="Group" transform="translate(161.482650, 94.652174)">
+                <rect id="Rectangle-Copy-3" stroke="#979797" stroke-width="2.25" fill="#D8D8D8" x="1.125" y="1.125" width="117.876183" height="59.1814381" rx="6"></rect>
+                <text id="Comercio-Copy" font-family="Helvetica" font-size="21" font-weight="normal" fill="#000000">
+                    <tspan x="15.1356012" y="37.9659978">Comercio</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
