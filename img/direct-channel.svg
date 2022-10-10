@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="835px" height="316px" viewBox="0 0 835 316" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="600px" height="200px" viewBox="0 0 600 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Artboard</title>
     <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(101.000000, 117.000000)">
-            <rect id="Rectangle" stroke="#979797" stroke-width="3" fill="#D8D8D8" x="1.5" y="1.5" width="157" height="79" rx="8"></rect>
-            <rect id="Rectangle-Copy" stroke="#979797" stroke-width="3" fill="#D8D8D8" x="475.5" y="1.5" width="157" height="79" rx="8"></rect>
-            <text id="Cliente" font-family="Helvetica" font-size="28" font-weight="normal" fill="#000000">
-                <tspan x="36.4208984" y="52">Cliente</tspan>
+        <g id="Group" transform="translate(62.000000, 69.000000)">
+            <rect id="Rectangle" stroke="#979797" stroke-width="2.25" fill="#D8D8D8" x="1.125" y="1.125" width="117.876183" height="59.75" rx="6"></rect>
+            <rect id="Rectangle-Copy" stroke="#979797" stroke-width="2.25" fill="#D8D8D8" x="356.998817" y="1.125" width="117.876183" height="59.75" rx="6"></rect>
+            <text id="Cliente" font-family="Helvetica" font-size="21" font-weight="normal" fill="#000000">
+                <tspan x="27.3787653" y="38.2479675">Cliente</tspan>
             </text>
-            <text id="Comercio" font-family="Helvetica" font-size="28" font-weight="normal" fill="#000000">
-                <tspan x="494.09668" y="52">Comercio</tspan>
+            <text id="Comercio" font-family="Helvetica" font-size="21" font-weight="normal" fill="#000000">
+                <tspan x="371.009418" y="38.2479675">Comercio</tspan>
             </text>
-            <line x1="160.5" y1="41.5" x2="475.5" y2="41.5" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></line>
-            <path id="Line-2" d="M414,23 L423,27.5 L414,32 L414,28 L215,28 L215,27 L414,27 L414,23 Z" fill="#979797" fill-rule="nonzero"></path>
+            <line x1="120.501577" y1="31.3780488" x2="357" y2="31.3780488" id="Line" stroke="#979797" stroke-width="2.25" stroke-linecap="square"></line>
+            <path id="Line-2" d="M309.652646,16.9176829 L317.652646,20.7926829 L309.652646,24.6676829 L309.652,21.167 L161.419953,21.1676829 L161.419953,20.4176829 L309.652,20.417 L309.652646,16.9176829 Z" fill="#979797" fill-rule="nonzero"></path>
         </g>
     </g>
 </svg>
