@@ -101,6 +101,9 @@ Puedes probar todo este setup usando la red de Bitcoin en Testnet, para ello tie
 * [Mastering the Lightning Network](https://github.com/lnbook/lnbook)
 * [Lightning Invoice Expiration: UX Considerations](https://d.elor.me/2022/01/lightning-invoice-expiration-ux-considerations/)
 
+## Recursos de interés
+* Decodificación de facturas LN [Lightning Decoder](https://lightningdecoder.com)
+
 ## Colaboración
 Si quieres colaborar con esta guía puedes hacerlo directamente enviando un [PR](https://github.com/danielcharrua/ln-en-comercios/pulls) o un [issue](https://github.com/danielcharrua/ln-en-comercios/issues). También puedes comunicarte directamente conmigo en Twitter [@danielpcostas](https://twitter.com/danielpcostas).
 
