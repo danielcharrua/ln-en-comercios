@@ -32,6 +32,11 @@ Existen servicios en los que puedes comprar esa liquidez entrante, por ejemplo: 
 
 Es importante que recuerdes que esos nodos no solo deben darte liquidez entrante sino que también deben estar bien conectados ya que la idea es que los clientes puedan pagarte a través de otros nodos haciendo un enrutado del pago sin tener que abrir un canal directo con tu comercio.
 
+## Diagrama lógico
+![diagrama lógico](./img/logic-diagram.svg)
+En el siguiente diagrama se puede apreciar un caso de ejemplo donde un comercio por la parte izquierda tiene montada la infraestructura necesaria para aceptar pagos en Lightning y por la derecha vemos a los potenciales clientes.
+
+Como hemos visto antes algunos pagan con canales directos mientras que otros lo hacen mediante otros nodos enrutadores.
 
 ## Idea
 La idea general de implementación será:
