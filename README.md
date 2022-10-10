@@ -1,12 +1,14 @@
 # Lightning Network en comercios
 Guía para la implementación de Lightning Network en comercios usando BTCPay Server para gestionar ambos tipos de comercio (online y offline).
 
+> Ten en cuenta que esta guía está en constante evolución y es un acercamiento personal hacia la implementación de Lightning en comercios.
+
 ## Introducción
 Esta guía busca hacer la implementación basándose en el control y libertad total o casi total. Dependerás de ti mismo, con tu propio nodo, credenciales, hardware wallet, etc. Es un setup más complejo pero tendrás el control total sobre tus fondos.
 
 Si quieres comenzar de forma "fácil y rápida" puedes usar un servicio como [Breez](https://breez.technology/#business) en donde tendrás todo listo para la venta offline (comercio sin venta online). Debes tener en cuenta que al usar Breez te conectarás probablemente a su propio nodo por lo tanto no será la opcion más privada ni segura.
 
-> Recordatorio: esta guía no pretende sumergirse profundamente en conceptos técnicos ni definiciones pero sí servir de punto de partida para la implementación. Si necesitas profundizar en algún concepto puedes buscar en la web o hacerme una consulta en [twitter](https://twitter.com/danielpcostas).
+> Recordatorio: esta guía no pretende sumergirse profundamente en conceptos técnicos ni definiciones pero sí servir de punto de partida para la implementación. Si necesitas profundizar en algún concepto puedes buscar en la web o hacerme una consulta en Twitter [@danielpcostas](https://twitter.com/danielpcostas).
 
 ## Recibir pagos en Lightning Network
 Para que un comercio pueda recibir pagos es fundamental que la wallet que quiere enviar el pago (el cliente) encuentre un camino hacia el nodo (el comercio) que emite la factura. Ese camino (canal o ruta) también tiene que tener balance y capacidad suficiente para poder enviar el pago.
@@ -34,7 +36,7 @@ Es importante que recuerdes que esos nodos no solo deben darte liquidez entrante
 
 ## Diagrama lógico
 ![diagrama lógico](./img/logic-diagram.svg)
-En el siguiente diagrama se puede apreciar un caso de ejemplo donde un comercio por la parte izquierda tiene montada la infraestructura necesaria para aceptar pagos en Lightning y por la derecha vemos a los potenciales clientes.
+En el siguiente diagrama se puede apreciar un caso de ejemplo donde un comercio offline por la parte izquierda tiene montada la infraestructura necesaria para aceptar pagos en Lightning y por la derecha vemos a los potenciales clientes.
 
 Como hemos visto antes algunos pagan con canales directos mientras que otros lo hacen mediante otros nodos enrutadores.
 
@@ -98,3 +100,6 @@ Puedes probar todo este setup usando la red de Bitcoin en Testnet, para ello tie
 ## Lecturas técnicas
 * [Mastering the Lightning Network](https://github.com/lnbook/lnbook)
 * [Lightning Invoice Expiration: UX Considerations](https://d.elor.me/2022/01/lightning-invoice-expiration-ux-considerations/)
+
+## Colaboración
+Si quieres colaborar con esta guía puedes hacerlo directamente enviando un [PR](https://github.com/danielcharrua/ln-en-comercios/pulls) o un [issue](https://github.com/danielcharrua/ln-en-comercios/issues). También puedes comunicarte directamente conmigo en Twitter [@danielpcostas](https://twitter.com/danielpcostas).
