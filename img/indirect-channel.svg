@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="835px" height="398px" viewBox="0 0 835 398" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard 2</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(101.000000, 50.000000)">
+            <rect id="Rectangle-Copy-2" stroke="#979797" stroke-width="3" fill="#D8D8D8" x="1.5" y="1.5" width="157" height="79" rx="8"></rect>
+            <rect id="Rectangle-Copy-3" stroke="#979797" stroke-width="3" fill="#D8D8D8" x="475.5" y="1.5" width="157" height="79" rx="8"></rect>
+            <text id="Cliente-Copy" font-family="Helvetica" font-size="28" font-weight="normal" fill="#000000">
+                <tspan x="36.4208984" y="52">Cliente</tspan>
+            </text>
+            <text id="Comercio-Copy" font-family="Helvetica" font-size="28" font-weight="normal" fill="#000000">
+                <tspan x="494.09668" y="52">Comercio</tspan>
+            </text>
+            <line x1="139.5" y1="240.5" x2="494.5" y2="240.5" id="Line-Copy" stroke="#979797" stroke-width="3" stroke-linecap="square"></line>
+            <line x1="80.5" y1="81.5" x2="80.5" y2="182.5" id="Line-Copy-2" stroke="#979797" stroke-width="3" stroke-linecap="square"></line>
+            <line x1="554.5" y1="81.5" x2="554.5" y2="182.5" id="Line-Copy-3" stroke="#979797" stroke-width="3" stroke-linecap="square"></line>
+            <circle id="Oval" stroke="#979797" stroke-width="3" fill="#D8D8D8" cx="80.5" cy="240.5" r="57"></circle>
+            <circle id="Oval-Copy" stroke="#979797" stroke-width="3" fill="#D8D8D8" cx="554.5" cy="240.5" r="57"></circle>
+            <text id="Nodo" font-family="Helvetica" font-size="28" font-weight="normal" fill="#000000">
+                <tspan x="47.03125" y="251">Nodo</tspan>
+            </text>
+            <text id="Nodo-Copy" font-family="Helvetica" font-size="28" font-weight="normal" fill="#000000">
+                <tspan x="521.03125" y="251">Nodo</tspan>
+            </text>
+            <path id="Line-2-Copy" d="M414,222 L423,226.5 L414,231 L414,227 L215,227 L215,226 L414,226 L414,222 Z" fill="#979797" fill-rule="nonzero"></path>
+            <path id="Line-2-Copy-2" d="M95,98 L95,157 L99,157 L94.5,166 L90,157 L94,157 L94,98 L95,98 Z" fill="#979797" fill-rule="nonzero"></path>
+            <path id="Line-2-Copy-3" d="M569,98 L569,157 L573,157 L568.5,166 L564,157 L568,157 L568,98 L569,98 Z" transform="translate(568.500000, 132.000000) scale(1, -1) translate(-568.500000, -132.000000) " fill="#979797" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

@@ -13,11 +13,11 @@ Para que un comercio pueda recibir pagos es fundamental que la wallet que quiere
 
 La wallet del cliente escaneará la factura y buscará un camino para poder entregar el pago. Si encuentra un camino que cumpla con las necesidades te mostrará que se puede efectuar el pago y posiblemente unas pequeñas comisiones de "enrutado". Esas comisiones son otros nodos por el que pasa tu pago y que permiten la conexión entre tu wallet y el nodo destino. No te asustes, esto es correcto y es el "precio" por utilizar la red.
 
-//imagen de canales con nodos intermedios.
+![pago con enrutado](./img/indirect-channel.svg)
 
 Si la wallet no encuentra un camino tienes la posibilidad de abrir un canal de pago directo con el comercio. Tienes que pensar si es un comercio con el que seguirás efectuando compras ya que abrir y cerrar un canal incurre en comisiones on-chain (Bitcoin).
 
-//imagen de canal de pago directo.
+![pago con canal directo](./img/direct-channel.svg)
 
 ## Idea
 La idea general de implementación será:
