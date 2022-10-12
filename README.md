@@ -83,12 +83,14 @@ Puedes usar otro hardware similar que encuentres en el mercado. Incluso comprar 
 * Teléfono móvil o tablet para usar como POS (punto de venta) en tiendas físicas
 
 ## Software
-* Linux Ubuntu Server 22.04
-* BTCPay Server
+* [Linux Ubuntu Server 22.04](https://ubuntu.com/download/server)
+* [BTCPay Server](https://docs.btcpayserver.org/Docker/)
+  * Bitcoin Core
+  * LND
 * Si vas a vender online
-  * Una página web con WordPress (podría ser también con Prestashop, Magento, Shopify, etc.)
-  * WooCommerce
-  * Plugin de BTCPay Server para WordPress
+  * Una página web con [WordPress](https://wordpress.org/download/) (podría ser también con Prestashop, Magento, Shopify, etc.)
+  * [WooCommerce](https://wordpress.org/plugins/woocommerce/)
+  * [BTCPay for WooCommerce V2](https://wordpress.org/plugins/btcpay-greenfield-for-woocommerce/)
 
 ## Costos de operación
 * Inversión en hardware o "alquiler" de VPS
@@ -97,7 +99,6 @@ Puedes usar otro hardware similar que encuentres en el mercado. Incluso comprar 
 * Costo de rebalanceo de canales. Puede que cada tanto necesites rebalancear canales, el coste es variable y está determinado por la red
 * Costo de comprar liquidez entrante (inbound liquidity) si no puedes obtenerla de otros nodos
 * Costo de mantenimiento o soporte técnico
-* Algunos costos de funcionamiento que están fuera de tu control
 
 ## Legislación
 Sección pendiente de desarrollo.
