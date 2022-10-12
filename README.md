@@ -25,6 +25,14 @@ Si la wallet no encuentra un camino tienes la posibilidad de abrir un canal de p
 
 <p align="center"><img src="./img/direct-channel.svg" alt="pago con canal directo"></p>
 
+## Apertura de canales directos con comercio
+
+<p align="center"><img src="./img/apertura-canales.svg" alt="diagrama de apertura de canales"></p>
+
+En el siguiente diagrama se aprecia el proceso de apertura de canales directos con el comercio. En un primer momento el cliente escanea con su wallet Lightning la informacion del nodo del comercio al que quiere conectarse para abrir el canal. 
+
+El establecimiento del canal crea un contrato inteligente entre las dos partes, permitiendo a cada parte realizar pagos, conocer el balance en cada momento y reclamarlo en caso de finalizacion de la relación financiera.
+
 ## Liquidez entrante
 Cuando trabajamos con comercios y queremos recibir pagos es fundamental establecer canales con liquidez entrante con nodos bien conectados. Una posible idea sería abrirlos con nodos que se encuentren en el top 10. Puedes revisar esa información en [https://1ml.com](https://1ml.com). Recuerda que no eres tú quien debe abrirlos sino estos nodos hacia tí ya que si los abres tú, el balance estará de tu lado imposibilitando que puedas recibir pagos (solo podrás enviarlos).
 
@@ -36,15 +44,18 @@ Existen servicios en los que puedes comprar esa liquidez entrante, por ejemplo: 
 
 Es importante que recuerdes que esos nodos no solo deben darte liquidez entrante sino que también deben estar bien conectados ya que la idea es que los clientes puedan pagarte a través de otros nodos haciendo un enrutado del pago sin tener que abrir un canal directo con tu comercio.
 
-## Diagrama lógico
+## Diagrama general
 
-<p align="center"><img src="./img/logic-diagram.svg" alt="diagrama lógico"></p>
+<p align="center"><img src="./img/diagrama-general.svg" alt="diagrama lógico"></p>
 
 En el siguiente diagrama se puede apreciar un caso de ejemplo donde un comercio offline por la parte derecha tiene montada la infraestructura necesaria para aceptar pagos en Lightning y por la izquierda vemos a los potenciales clientes.
 
-Como hemos visto antes algunos pagan con canales directos mientras que otros lo hacen mediante otros nodos enrutadores.
+Algunos clientes pagan con canales directos mientras que otros lo hacen mediante nodos enrutadores.
 
-En la parte de infraestructura se aprecian dos máquinas, una conteniendo todo el software necesario para la operacion del comercio y otra máquina que funcionará como torre de vigilancia (watchtower).
+En la parte de infraestructura se aprecian dos máquinas, una conteniendo todo el software necesario para la operacion del comercio y otra máquina que funcionará como torre de vigilancia (watchtower) para proteger nuestros fondos en Lightning.
+
+Para realizar un pago, el comercio debe generar una factura Lightning y mostrarla o enviarla al cliente. Si fuese un e-commerce, se generaría la factura en el momento de la compra.
+Una vez creada la factura, el cliente debe escanearla con su wallet de Lightning y proceder al pago.
 
 ## Idea
 La idea general de implementación será:
