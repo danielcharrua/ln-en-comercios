@@ -36,7 +36,10 @@ El establecimiento del canal crea un contrato inteligente entre las dos partes, 
 ## Liquidez entrante
 Cuando trabajamos con comercios y queremos recibir pagos es fundamental establecer canales con liquidez entrante con nodos bien conectados. Una posible idea sería abrirlos con nodos que se encuentren en el top 10. Puedes revisar esa información en [https://1ml.com](https://1ml.com). Recuerda que no eres tú quien debe abrirlos sino estos nodos hacia tí ya que si los abres tú, el balance estará de tu lado imposibilitando que puedas recibir pagos (solo podrás enviarlos).
 
-Existen servicios en los que puedes comprar esa liquidez entrante, por ejemplo: [Thor Lightning Channel Capacity de Bitrefill](https://www.bitrefill.com/buy/lightning-channel/) o [LND Pool](https://lightning.engineering/pool/).
+Existen servicios en los que puedes comprar liquidez entrante, por ejemplo: 
+* [Thor Lightning Channel Capacity de Bitrefill](https://www.bitrefill.com/buy/lightning-channel/)
+* [LND Pool](https://lightning.engineering/pool/)
+* [LNBIG](https://lnbig.com)
 
 <p align="center"><img src="./img/inbound-liquidity.svg" alt="liquidez entrante"></p>
 
