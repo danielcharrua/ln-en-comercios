@@ -40,6 +40,7 @@ Existen servicios en los que puedes comprar liquidez entrante, por ejemplo:
 * [Thor Lightning Channel Capacity de Bitrefill](https://www.bitrefill.com/buy/lightning-channel/)
 * [LND Pool](https://lightning.engineering/pool/)
 * [LNBIG](https://lnbig.com)
+* [zerofeerouting](https://zerofeerouting.com)
 
 <p align="center"><img src="./img/inbound-liquidity.svg" alt="liquidez entrante"></p>
 
@@ -138,3 +139,5 @@ Puedes probar todo este setup usando la red de Bitcoin en Testnet, para ello tie
 Si quieres colaborar con esta guía puedes hacerlo directamente enviando un [PR](https://github.com/danielcharrua/ln-en-comercios/pulls) o un [issue](https://github.com/danielcharrua/ln-en-comercios/issues). También puedes comunicarte directamente conmigo en Twitter [@danielpcostas](https://twitter.com/danielpcostas).
 
 Si ves algún error o tienes información para aportar y que esto ayude a otros no dudes en comentarlo así acercamos la economía Bitcoin a más personas.
+
+Las imagenes utilizadas son libres de derechos de uso y fueron tomadas de Pexels y Freepik.
