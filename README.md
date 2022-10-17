@@ -8,7 +8,7 @@ Guía para la implementación de Lightning Network en comercios usando BTCPay Se
 ## Introducción
 Esta guía busca hacer la implementación basándose en el control y libertad total o casi total. Dependerás de ti mismo, con tu propio nodo, credenciales, hardware wallet, etc. Es un setup más complejo pero tendrás el control total sobre tus fondos.
 
-Si quieres comenzar de forma "fácil y rápida" puedes usar un servicio como [Breez](https://breez.technology/#business) en donde tendrás todo listo para la venta offline (comercio sin venta online), también [muun](https://muun.com/es/). Debes tener en cuenta que al usar Breez te conectarás probablemente a su propio nodo por lo tanto no será la opcion más privada ni segura.
+Si quieres comenzar de forma "fácil y rápida" puedes usar un servicio como [Breez](https://breez.technology/#business) en donde tendrás todo listo para la venta offline (comercio sin venta online), también [muun](https://muun.com/es/). Debes tener en cuenta que al utilizar estas soluciones de terceros te conectarás probablemente a su propio nodo por lo tanto no será la opcion más privada ni segura. Al final de esta guía tienes un tutorial de como implementar Breez.
 
 > Recordatorio: esta guía no pretende sumergirse profundamente en conceptos técnicos ni definiciones pero sí servir de punto de partida para la implementación. Si necesitas profundizar en algún concepto puedes buscar en la web o hacerme una consulta en Twitter [@danielpcostas](https://twitter.com/danielpcostas).
 
@@ -127,6 +127,7 @@ Puedes probar todo este setup usando la red de Bitcoin en Testnet, para ello tie
 
 ## Lecturas de interés
 * [LNBits para pequeños comerciantes](https://darthcoin.substack.com/p/lnbits-para-comerciantes)
+* [Tutorial Breez por @hola_LatiNodos](https://www.youtube.com/watch?v=Y_LevE5mqc4)
 
 ## Lecturas técnicas
 * [Mastering the Lightning Network](https://github.com/lnbook/lnbook)
