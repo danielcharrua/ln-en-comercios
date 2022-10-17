@@ -127,14 +127,15 @@ Puedes probar todo este setup usando la red de Bitcoin en Testnet, para ello tie
 
 ## Lecturas de interés
 * [LNBits para pequeños comerciantes](https://darthcoin.substack.com/p/lnbits-para-comerciantes)
-* [Tutorial Breez por @hola_LatiNodos](https://www.youtube.com/watch?v=Y_LevE5mqc4)
 
 ## Lecturas técnicas
 * [Mastering the Lightning Network](https://github.com/lnbook/lnbook)
 * [Lightning Invoice Expiration: UX Considerations](https://d.elor.me/2022/01/lightning-invoice-expiration-ux-considerations/)
 
 ## Recursos de interés
-* Decodificación de facturas LN [Lightning Decoder](https://lightningdecoder.com)
+* [Lightning Decoder](https://lightningdecoder.com) - Decodificación de facturas LN. 
+* [Flyers para comercios](https://github.com/pedromvpg/bitcoinforlocalbusiness) - Para ayudar a comprender cómo y por qué deberían aceptar bitcoin como forma de pago.
+* [Como aceptar pagos con Breez](https://www.youtube.com/watch?v=Y_LevE5mqc4) - Tutorial.
 
 ## Colaboración
 Si quieres colaborar con esta guía puedes hacerlo directamente enviando un [PR](https://github.com/danielcharrua/ln-en-comercios/pulls) o un [issue](https://github.com/danielcharrua/ln-en-comercios/issues). También puedes comunicarte directamente conmigo en Twitter [@danielpcostas](https://twitter.com/danielpcostas).
