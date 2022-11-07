@@ -145,3 +145,9 @@ Si quieres colaborar con esta guía puedes hacerlo directamente enviando un [PR]
 Si ves algún error o tienes información para aportar y que esto ayude a otros no dudes en comentarlo así acercamos la economía Bitcoin a más personas.
 
 Las imagenes utilizadas son libres de derechos de uso y fueron tomadas de Pexels y Freepik.
+
+## Send some love
+
+Si consideras que esta guía te ha aportado valor puedes enviar unos sats usando Lightning Network ⚡️
+ 
+<p align="center"><a href="lightning:LNURL1DP68GURN8GHJ7MRWW3UXYMM59E3K7MF09EMK2MRV944KUMMHDCHKCMN4WFK8QTMYV9HXJETVWP3K7UM5V9ES4MRMQW"><img width="180" src="/img/qr-lnurl.svg" alt="qr-lnurl"></a></p>
